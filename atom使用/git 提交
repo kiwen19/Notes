@@ -1,2 +1,5 @@
  file /setting /install
-  git-plus 
+  git-plus
+
+setting  设置git path  /git.exe
+ss
