@@ -3,41 +3,10 @@
   ###   制造商库存表
   -     库存表  (从商品表 宣布在选择商品加入 库存表） 字段 商品id  库存数量
   -  入库 增加库存表内商品 数量设置
-  -  商品删除后  取消删除需要 判断是否有现有 factory id 判断是否重复   
-
-
+  -
 
 
   - 开单
   - 接单
   - 退换货
-
-
-  void insertAll(List<Indentdetil> listdetils);
-
-  	List<Indentdetil> getOrderDetilbyIndentId(String indentId);
-
-
-
-
-    <insert id="insertAll" parameterType="ArrayList">
-        insert into ctg_indentdetil (id, indentId, goods_id,
-        goods_amount, goods_price, goods_name,
-        takeNumber)
-        values
-        <foreach collection="list" item="item" open="" close="" separator=",">
-
-            (#{item.id,jdbcType=VARCHAR}, #{item.indentId,jdbcType=VARCHAR}, #{item.goods_id,jdbcType=VARCHAR},
-            #{item.goods_amount,jdbcType=INTEGER}, #{item.goods_price,jdbcType=DECIMAL},
-            #{item.goods_name,jdbcType=VARCHAR},
-            #{item.takeNumber,jdbcType=INTEGER})
-
-        </foreach>
-    </insert>
-
-    <select id="getOrderDetilbyIndentId" resultType="com.ctg.pojo.Indentdetil" parameterType="string">
-         SELECT  t1.id, t1.indentId, t1.goods_id, t1.goods_amount, t1.goods_price, t1.goods_name, t1.takeNumber
-            from ctg_indentdetil t1  where t1.indentId=#{indentId,jdbcType=VARCHAR}
-
-
-  </select>
+  t
