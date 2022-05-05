@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T07:13:46.959Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="vVQymKEDgD4IQoCywvXX" version="18.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-05T07:15:32.134Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="N1CPe-WwVCeFOtiNXci_" version="18.0.0" type="github" pages="2">
   <diagram name="鉴权" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
     <mxGraphModel dx="2222" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -134,27 +134,35 @@
         <mxCell id="9NAWJaIJpuJt2_yTO0WV-10" value="素材删除" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="230" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9NAWJaIJpuJt2_yTO0WV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="9NAWJaIJpuJt2_yTO0WV-12" target="9NAWJaIJpuJt2_yTO0WV-14">
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="waK7jHF65Sw4znNXJNhh-1" target="9NAWJaIJpuJt2_yTO0WV-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="390" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9NAWJaIJpuJt2_yTO0WV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="9NAWJaIJpuJt2_yTO0WV-12" target="9NAWJaIJpuJt2_yTO0WV-16">
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="waK7jHF65Sw4znNXJNhh-1" target="9NAWJaIJpuJt2_yTO0WV-16">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="300" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="waK7jHF65Sw4znNXJNhh-4" value="大于" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="9NAWJaIJpuJt2_yTO0WV-15">
+          <mxGeometry x="0.4727" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="waK7jHF65Sw4znNXJNhh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="9NAWJaIJpuJt2_yTO0WV-12" target="waK7jHF65Sw4znNXJNhh-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9NAWJaIJpuJt2_yTO0WV-12" value="素材上传" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="380" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9NAWJaIJpuJt2_yTO0WV-14" value="普通上传" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="330" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="270" y="422" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9NAWJaIJpuJt2_yTO0WV-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="9NAWJaIJpuJt2_yTO0WV-16" target="9NAWJaIJpuJt2_yTO0WV-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9NAWJaIJpuJt2_yTO0WV-16" value="分片上传" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="477" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="480" y="422" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9NAWJaIJpuJt2_yTO0WV-17" value="&lt;h1&gt;素材管理&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="100" y="-120" width="100" height="40" as="geometry" />
@@ -210,7 +218,7 @@
           <mxGeometry x="360" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9NAWJaIJpuJt2_yTO0WV-29" value="分片合并" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="477" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="480" y="532" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9NAWJaIJpuJt2_yTO0WV-31" value="&lt;span style=&quot;color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; font-size: 14px; text-align: start;&quot;&gt;支持：图片文件jpg, png, bmp, jpeg, gif,&lt;/span&gt;&lt;br style=&quot;-webkit-print-color-adjust: exact; color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; font-size: 14px; text-align: start;&quot;&gt;&lt;span style=&quot;color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; font-size: 14px; text-align: start;&quot;&gt;视频文件mp4, avi, mov, asf, mkv, wmv，&lt;/span&gt;&lt;br style=&quot;-webkit-print-color-adjust: exact; color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; font-size: 14px; text-align: start;&quot;&gt;&lt;span style=&quot;color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; font-size: 14px; text-align: start;&quot;&gt;音频文件mp3, wav, wma，&lt;/span&gt;&lt;br style=&quot;-webkit-print-color-adjust: exact; color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; font-size: 14px; text-align: start;&quot;&gt;&lt;span style=&quot;color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; font-size: 14px; text-align: start;&quot;&gt;文档PDF&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="520" y="205" width="280" height="50" as="geometry" />
@@ -235,6 +243,12 @@
         </mxCell>
         <mxCell id="9NAWJaIJpuJt2_yTO0WV-46" value="查询组织计划列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="340" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="waK7jHF65Sw4znNXJNhh-1" value="素材大小10M" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="400" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="waK7jHF65Sw4znNXJNhh-3" value="小于" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="340" y="300" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
