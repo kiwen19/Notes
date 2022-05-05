@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T05:25:02.081Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="I2fqUBm_P9Ff0jA8cnEi" version="18.0.0" type="github">
-  <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
-    <mxGraphModel dx="2208" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2022-05-05T07:11:36.105Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="zefXKtOioQZkj_FHYO_a" version="18.0.0" type="github" pages="2">
+  <diagram name="鉴权" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
+    <mxGraphModel dx="2420" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,24 +14,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="60e70716793133e9-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="60e70716793133e9-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="354" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="390" y="270" />
-              <mxPoint x="280" y="270" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="60e70716793133e9-4" value="客户端认证" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
           <mxGeometry x="340" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fS58xSXTJZ6TY58kK1jS-1" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;密码认证&lt;br&gt;&lt;span style=&quot;color: rgb(57, 56, 56); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, tahoma, arial; text-align: start;&quot;&gt;通过ICC用户账号、用户密码、&lt;/span&gt;&lt;strong style=&quot;-webkit-print-color-adjust: exact; color: rgb(57, 56, 56); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, tahoma, arial; text-align: start;&quot;&gt;clientId&lt;/strong&gt;&lt;span style=&quot;color: rgb(57, 56, 56); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, tahoma, arial; text-align: start;&quot;&gt;&amp;nbsp;和&amp;nbsp;&lt;/span&gt;&lt;strong style=&quot;-webkit-print-color-adjust: exact; color: rgb(57, 56, 56); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, tahoma, arial; text-align: start;&quot;&gt;clientSecret&lt;/strong&gt;&lt;span style=&quot;color: rgb(57, 56, 56); font-family: &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, tahoma, arial; text-align: start;&quot;&gt;&amp;nbsp;访问鉴权，实现资源调用&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
           <mxGeometry x="90" y="160" width="200" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="fS58xSXTJZ6TY58kK1jS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.867;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="fS58xSXTJZ6TY58kK1jS-6" target="fS58xSXTJZ6TY58kK1jS-8">
+        <mxCell id="fS58xSXTJZ6TY58kK1jS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.867;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="270" as="targetPoint" />
+            <mxPoint x="825" y="228.02999999999997" as="targetPoint" />
+            <mxPoint x="340" y="310" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="340" y="330" />
               <mxPoint x="510" y="330" />
@@ -40,21 +32,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fS58xSXTJZ6TY58kK1jS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="fS58xSXTJZ6TY58kK1jS-6" target="fS58xSXTJZ6TY58kK1jS-11">
+        <mxCell id="fS58xSXTJZ6TY58kK1jS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" target="fS58xSXTJZ6TY58kK1jS-11">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="420" as="targetPoint" />
+            <mxPoint x="220" y="330" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fS58xSXTJZ6TY58kK1jS-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=6;" edge="1" parent="1" source="fS58xSXTJZ6TY58kK1jS-6" target="fS58xSXTJZ6TY58kK1jS-32">
+        <mxCell id="fS58xSXTJZ6TY58kK1jS-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=6;" edge="1" parent="1" target="fS58xSXTJZ6TY58kK1jS-32">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="440" y="380" as="targetPoint" />
+            <mxPoint x="280" y="350" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="fS58xSXTJZ6TY58kK1jS-6" value="携带请求头" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="310" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="fS58xSXTJZ6TY58kK1jS-8" value="&lt;table style=&quot;-webkit-print-color-adjust: exact; margin: 10px 0px 15px; border-collapse: collapse; color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; font-size: 14px; text-align: start;&quot;&gt;&lt;tbody style=&quot;-webkit-print-color-adjust: exact;&quot;&gt;&lt;tr style=&quot;-webkit-print-color-adjust: exact;&quot;&gt;&lt;td style=&quot;-webkit-print-color-adjust: exact; border: 1px solid rgb(221, 221, 221); padding: 3px 10px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Authorization&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;-webkit-print-color-adjust: exact; border: 1px solid rgb(221, 221, 221); padding: 3px 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;示例 bearer 704dc1bc-b05e-4ed5-a889-0261584919f6 ，&lt;strong style=&quot;-webkit-print-color-adjust: exact;&quot;&gt;bearer固定,后面紧随空格，然后token&lt;/strong&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;-webkit-print-color-adjust: exact;&quot;&gt;&lt;td style=&quot;-webkit-print-color-adjust: exact; border: 1px solid rgb(221, 221, 221); padding: 3px 10px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;User-Id&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;-webkit-print-color-adjust: exact; border: 1px solid rgb(221, 221, 221); padding: 3px 10px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;客户端模式必须携带且设置为1&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="150" width="450" height="90" as="geometry" />
         </mxCell>
         <mxCell id="fS58xSXTJZ6TY58kK1jS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="1" source="fS58xSXTJZ6TY58kK1jS-11" target="fS58xSXTJZ6TY58kK1jS-13">
           <mxGeometry relative="1" as="geometry">
@@ -75,8 +63,8 @@
         <mxCell id="fS58xSXTJZ6TY58kK1jS-13" value="RSA密码加密" style="rounded=1;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
           <mxGeometry x="95" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fS58xSXTJZ6TY58kK1jS-14" value="&lt;ul style=&quot;-webkit-print-color-adjust: exact; color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; font-size: 14px; text-align: start;&quot;&gt;&lt;li style=&quot;-webkit-print-color-adjust: exact;&quot;&gt;&lt;strong style=&quot;-webkit-print-color-adjust: exact;&quot;&gt;公钥只能使用一次，用后失效&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=9;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-95" y="370" width="120" height="80" as="geometry" />
+        <mxCell id="fS58xSXTJZ6TY58kK1jS-14" value="&lt;ul style=&quot;-webkit-print-color-adjust: exact; color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; text-align: start;&quot;&gt;&lt;li style=&quot;-webkit-print-color-adjust: exact;&quot;&gt;&lt;strong style=&quot;-webkit-print-color-adjust: exact;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;公钥只能使用一次，用后失效&lt;/font&gt;&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=9;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="375" width="135" height="70" as="geometry" />
         </mxCell>
         <mxCell id="fS58xSXTJZ6TY58kK1jS-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="1" source="fS58xSXTJZ6TY58kK1jS-18" target="fS58xSXTJZ6TY58kK1jS-19">
           <mxGeometry relative="1" as="geometry" />
@@ -113,6 +101,158 @@
         </mxCell>
         <mxCell id="fS58xSXTJZ6TY58kK1jS-32" value="获取token；&lt;br&gt;失效后重新获取" style="rounded=1;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
           <mxGeometry x="370" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RQqIQMfqH1qSkvMgK42u" name="信息发布">
+    <mxGraphModel dx="1122" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.391;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=9;" edge="1" parent="1" source="UJhDUWCKWKoEuqxhhBKn-1" target="9NAWJaIJpuJt2_yTO0WV-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="-10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJhDUWCKWKoEuqxhhBKn-1" value="携带请求头" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="-80" width="126" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-1" value="&lt;table style=&quot;-webkit-print-color-adjust: exact; margin: 10px 0px 15px; border-collapse: collapse; color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; font-size: 14px; text-align: start;&quot;&gt;&lt;tbody style=&quot;-webkit-print-color-adjust: exact;&quot;&gt;&lt;tr style=&quot;-webkit-print-color-adjust: exact;&quot;&gt;&lt;td style=&quot;-webkit-print-color-adjust: exact; border: 1px solid rgb(221, 221, 221); padding: 3px 10px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Authorization&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;-webkit-print-color-adjust: exact; border: 1px solid rgb(221, 221, 221); padding: 3px 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;示例 bearer 704dc1bc-b05e-4ed5-a889-0261584919f6 ，&lt;strong style=&quot;-webkit-print-color-adjust: exact;&quot;&gt;bearer固定,后面紧随空格，然后token&lt;/strong&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;-webkit-print-color-adjust: exact;&quot;&gt;&lt;td style=&quot;-webkit-print-color-adjust: exact; border: 1px solid rgb(221, 221, 221); padding: 3px 10px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;User-Id&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;-webkit-print-color-adjust: exact; border: 1px solid rgb(221, 221, 221); padding: 3px 10px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;客户端模式必须携带且设置为1&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-50" width="450" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="9NAWJaIJpuJt2_yTO0WV-5" target="9NAWJaIJpuJt2_yTO0WV-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9NAWJaIJpuJt2_yTO0WV-5" target="9NAWJaIJpuJt2_yTO0WV-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="204" as="targetPoint" />
+            <mxPoint x="220" y="134" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="220" y="164" />
+              <mxPoint x="440" y="164" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-5" value="查询素材列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-8" value="素材查看详情" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-10" value="素材删除" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="230" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="9NAWJaIJpuJt2_yTO0WV-12" target="9NAWJaIJpuJt2_yTO0WV-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="9NAWJaIJpuJt2_yTO0WV-12" target="9NAWJaIJpuJt2_yTO0WV-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-12" value="素材上传" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="380" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-14" value="普通上传" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="330" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="9NAWJaIJpuJt2_yTO0WV-16" target="9NAWJaIJpuJt2_yTO0WV-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-16" value="分片上传" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="477" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-17" value="&lt;h1&gt;素材管理&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-120" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9NAWJaIJpuJt2_yTO0WV-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="850" as="targetPoint" />
+            <mxPoint x="190" y="780" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="200" y="780" />
+              <mxPoint x="110" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9NAWJaIJpuJt2_yTO0WV-21" target="9NAWJaIJpuJt2_yTO0WV-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="810" as="targetPoint" />
+            <mxPoint x="200" y="740" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="200" y="780" />
+              <mxPoint x="270" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9NAWJaIJpuJt2_yTO0WV-21" target="9NAWJaIJpuJt2_yTO0WV-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="820" as="targetPoint" />
+            <mxPoint x="260" y="715" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="200" y="780" />
+              <mxPoint x="420" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9NAWJaIJpuJt2_yTO0WV-21" target="9NAWJaIJpuJt2_yTO0WV-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="780" />
+              <mxPoint x="570" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-21" value="查询设备列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="140" y="672" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-22" value="查看详情" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="50" y="805" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-23" value="设备信息删除" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="210" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-26" value="设备信息修改" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="360" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-29" value="分片合并" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="477" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-31" value="&lt;span style=&quot;color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; font-size: 14px; text-align: start;&quot;&gt;支持：图片文件jpg, png, bmp, jpeg, gif,&lt;/span&gt;&lt;br style=&quot;-webkit-print-color-adjust: exact; color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; font-size: 14px; text-align: start;&quot;&gt;&lt;span style=&quot;color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; font-size: 14px; text-align: start;&quot;&gt;视频文件mp4, avi, mov, asf, mkv, wmv，&lt;/span&gt;&lt;br style=&quot;-webkit-print-color-adjust: exact; color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; font-size: 14px; text-align: start;&quot;&gt;&lt;span style=&quot;color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; font-size: 14px; text-align: start;&quot;&gt;音频文件mp3, wav, wma，&lt;/span&gt;&lt;br style=&quot;-webkit-print-color-adjust: exact; color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; font-size: 14px; text-align: start;&quot;&gt;&lt;span style=&quot;color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; font-size: 14px; text-align: start;&quot;&gt;文档PDF&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="520" y="205" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-32" value="&lt;h1&gt;设备管理&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="60" y="610" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-34" value="操作设备" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="510" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-35" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;span style=&quot;color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; text-align: start;&quot;&gt;操作字段：&lt;/span&gt;&lt;br style=&quot;-webkit-print-color-adjust: exact; color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; text-align: start;&quot;&gt;&lt;span style=&quot;color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; text-align: start;&quot;&gt;1=开屏，&lt;/span&gt;&lt;br style=&quot;-webkit-print-color-adjust: exact; color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; text-align: start;&quot;&gt;&lt;span style=&quot;color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; text-align: start;&quot;&gt;2=关屏，&lt;/span&gt;&lt;br style=&quot;-webkit-print-color-adjust: exact; color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; text-align: start;&quot;&gt;&lt;span style=&quot;color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; text-align: start;&quot;&gt;3=关机，&lt;/span&gt;&lt;br style=&quot;-webkit-print-color-adjust: exact; color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; text-align: start;&quot;&gt;&lt;span style=&quot;color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; text-align: start;&quot;&gt;4=重启终端，&lt;/span&gt;&lt;br style=&quot;-webkit-print-color-adjust: exact; color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; text-align: start;&quot;&gt;&lt;span style=&quot;color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; text-align: start;&quot;&gt;5=复位,&lt;/span&gt;&lt;br style=&quot;-webkit-print-color-adjust: exact; color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; text-align: start;&quot;&gt;&lt;span style=&quot;color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; text-align: start;&quot;&gt;7=一键截图指令&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="610" y="780" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-42" value="查询普通计划列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="45" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-43" value="查询插播计划列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-45" value="&lt;h1&gt;播放计划管理&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="40" y="920" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9NAWJaIJpuJt2_yTO0WV-46" value="查询组织计划列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
