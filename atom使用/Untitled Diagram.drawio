@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T07:20:26.075Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="1357m54sw-z7vwbIBoCh" version="18.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-05T07:23:18.483Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="yqslf_ylOIf8c8X17_FA" version="18.0.0" type="github" pages="2">
   <diagram name="鉴权" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
     <mxGraphModel dx="2222" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -233,16 +233,16 @@
           <mxGeometry x="610" y="780" width="240" height="110" as="geometry" />
         </mxCell>
         <mxCell id="9NAWJaIJpuJt2_yTO0WV-42" value="查询普通计划列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="45" y="1010" width="120" height="60" as="geometry" />
+          <mxGeometry x="45" y="1290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9NAWJaIJpuJt2_yTO0WV-43" value="查询插播计划列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="190" y="1010" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="1290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9NAWJaIJpuJt2_yTO0WV-45" value="&lt;h1&gt;播放计划管理&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="40" y="920" width="130" height="20" as="geometry" />
+          <mxGeometry x="40" y="1200" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9NAWJaIJpuJt2_yTO0WV-46" value="查询组织计划列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1010" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="1290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="waK7jHF65Sw4znNXJNhh-1" value="素材大小10M" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="400" y="290" width="80" height="80" as="geometry" />
@@ -252,6 +252,29 @@
         </mxCell>
         <mxCell id="paLz09photunsHIO073a-1" value="&lt;h1&gt;信息发布流程&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, 宋体, helvetica, &amp;quot;Hiragino Sans GB&amp;quot;; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;1. 上传素材&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, 宋体, helvetica, &amp;quot;Hiragino Sans GB&amp;quot;; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, 宋体, helvetica, &amp;quot;Hiragino Sans GB&amp;quot;; font-size: 14px;&quot;&gt;制作节目&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, 宋体, helvetica, &amp;quot;Hiragino Sans GB&amp;quot;; font-size: 14px;&quot;&gt;3. 生成计划&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="340" y="-290" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="paLz09photunsHIO073a-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.542;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=8;" edge="1" parent="1" source="paLz09photunsHIO073a-6" target="paLz09photunsHIO073a-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paLz09photunsHIO073a-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" edge="1" parent="1" source="paLz09photunsHIO073a-6" target="paLz09photunsHIO073a-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="105" y="1080" />
+              <mxPoint x="270" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paLz09photunsHIO073a-6" value="查询节目列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="45" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="paLz09photunsHIO073a-7" value="查询节目详情" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="paLz09photunsHIO073a-8" value="&lt;h1&gt;节目管理&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="40" y="940" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="paLz09photunsHIO073a-9" value="删除节目" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1100" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
