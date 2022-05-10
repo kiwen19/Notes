@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T08:22:14.040Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="csfrOMIrfWqjeJHZzuXq" version="18.0.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-10T08:26:55.148Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="UA-RCN9mRmsMh7iraPQ0" version="18.0.2" type="github" pages="5">
   <diagram name="鉴权" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
     <mxGraphModel dx="2208" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YoConuhGA2rgcyjxSGAr" name="基础资源">
-    <mxGraphModel dx="1108" dy="1563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1108" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -367,11 +367,17 @@
         <mxCell id="wWjNfl5-oY1O3NIxBxVy-4" value="配置分辨率；" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="414" y="1400" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="MsyovYX3Hj9zFnA6zIpQ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wWjNfl5-oY1O3NIxBxVy-5" target="MsyovYX3Hj9zFnA6zIpQ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wWjNfl5-oY1O3NIxBxVy-5" value="选择混播，插入多个素材" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="1560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wWjNfl5-oY1O3NIxBxVy-7" value="图片可以设置播放时间；视频可以设置播放后切换；&lt;br&gt;图片、pdf 设置和节目一致；视频设置1080p" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="414" y="1540" width="156" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MsyovYX3Hj9zFnA6zIpQ-1" value="设置播放计划" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1700" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -467,7 +473,7 @@
         <mxCell id="qtvhUcdKkBp74vXYSqo--26" value="设备通道列表树" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="250" y="390" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="qtvhUcdKkBp74vXYSqo--34" value="&lt;br&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;如果查看的时间段较长，会返回多条录像信息，需要根据时间段顺序播放&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-weight: 400;&quot; size=&quot;1&quot;&gt;录像是按照文件存储的，每个录像文件均有开始与结束时间，流地址开始时间与结束时间需在真实录像时间范围内即不支持跨文件播放，需前端监听播放结束事件再播放下一段录像。&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=8;" parent="1" vertex="1">
+        <mxCell id="qtvhUcdKkBp74vXYSqo--34" value="&lt;br&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;如果查看的时间段较长，会返回多条录像信息，需要根据时间段顺序播放&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-weight: 400;&quot; size=&quot;1&quot;&gt;录像是按照文件存储的，每个录像文件均有开始与结束时间，流地址开始时间与结束时间需在真实录像时间范围内即不支持跨文件播放，需前端监听播放结束事件再播放下一段录像。&lt;br&gt;&lt;/font&gt;&lt;/span&gt;获取到录像文件信息后，播放的录像时间段要符合录像信息内的时间段。如果要 跨越播放，需要播放多个录像文件&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="580" y="517.5" width="420" height="140" as="geometry" />
         </mxCell>
         <mxCell id="qtvhUcdKkBp74vXYSqo--39" value="获取录像播放文件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
@@ -538,6 +544,9 @@
         </mxCell>
         <mxCell id="t7CiB_YvbFI3rNzoSXtP-1" value="picc平台配置录像计划，才可以有录像" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="-90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FhOgh7vyn54dxfxzVWCx-1" value="2个是一样的，都是返回播放地址" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="670" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
