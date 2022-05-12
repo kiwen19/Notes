@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-12T04:45:10.096Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="qQA6XsDgvDZz6BBL0jEU" version="18.0.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-12T07:07:35.959Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="Gp66vkHD6kEswwuuLRxg" version="18.0.2" type="github" pages="6">
   <diagram name="鉴权" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
     <mxGraphModel dx="2138" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -26,9 +26,9 @@
             <mxPoint x="280" y="350" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fS58xSXTJZ6TY58kK1jS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" parent="1" source="fS58xSXTJZ6TY58kK1jS-11" target="fS58xSXTJZ6TY58kK1jS-13" edge="1">
+        <mxCell id="fS58xSXTJZ6TY58kK1jS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="fS58xSXTJZ6TY58kK1jS-11" target="fS58xSXTJZ6TY58kK1jS-18" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="155" y="480" as="targetPoint" />
+            <mxPoint x="155" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fS58xSXTJZ6TY58kK1jS-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" parent="1" source="fS58xSXTJZ6TY58kK1jS-11" target="fS58xSXTJZ6TY58kK1jS-14" edge="1">
@@ -37,14 +37,6 @@
         <mxCell id="fS58xSXTJZ6TY58kK1jS-11" value="获取公钥" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="100" y="390" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fS58xSXTJZ6TY58kK1jS-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" parent="1" source="fS58xSXTJZ6TY58kK1jS-13" target="fS58xSXTJZ6TY58kK1jS-18" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="155" y="530" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fS58xSXTJZ6TY58kK1jS-13" value="RSA密码加密" style="rounded=1;whiteSpace=wrap;html=1;fontSize=6;" parent="1" vertex="1">
-          <mxGeometry x="95" y="450" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="fS58xSXTJZ6TY58kK1jS-14" value="&lt;ul style=&quot;-webkit-print-color-adjust: exact; color: rgb(57, 56, 56); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, SimSun, sans-serif; text-align: start;&quot;&gt;&lt;li style=&quot;-webkit-print-color-adjust: exact;&quot;&gt;&lt;strong style=&quot;-webkit-print-color-adjust: exact;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;公钥只能使用一次，用后失效&lt;/font&gt;&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=9;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-110" y="375" width="135" height="70" as="geometry" />
         </mxCell>
@@ -52,7 +44,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fS58xSXTJZ6TY58kK1jS-18" value="获取token" style="rounded=1;whiteSpace=wrap;html=1;fontSize=6;" parent="1" vertex="1">
-          <mxGeometry x="90" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="95" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fS58xSXTJZ6TY58kK1jS-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" parent="1" source="fS58xSXTJZ6TY58kK1jS-19" target="fS58xSXTJZ6TY58kK1jS-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -61,10 +53,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fS58xSXTJZ6TY58kK1jS-19" value="用户保活" style="whiteSpace=wrap;html=1;fontSize=6;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="90" y="610" width="120" height="60" as="geometry" />
+          <mxGeometry x="95" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fS58xSXTJZ6TY58kK1jS-21" value="刷新token&lt;br&gt;" style="whiteSpace=wrap;html=1;fontSize=6;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="90" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fS58xSXTJZ6TY58kK1jS-23" value="" style="endArrow=none;html=1;rounded=0;fontSize=6;entryX=-0.025;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="fS58xSXTJZ6TY58kK1jS-19" target="fS58xSXTJZ6TY58kK1jS-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -545,6 +537,63 @@
         </mxCell>
         <mxCell id="FhOgh7vyn54dxfxzVWCx-1" value="2个是一样的，都是返回播放地址" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="670" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YNSc-RZwZvmX0cNPfu8M" name="Page-6">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GCKN6omd75anSjOSiX5l-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="79.5" y="570" as="sourcePoint" />
+            <mxPoint x="79.5" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCKN6omd75anSjOSiX5l-2" value="鉴权中心" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GCKN6omd75anSjOSiX5l-3" value="基础资源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GCKN6omd75anSjOSiX5l-4" value="视频应用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GCKN6omd75anSjOSiX5l-5" value="信息发布" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GCKN6omd75anSjOSiX5l-7" value="应用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BCBUdUBFwDou21kV7mwj-3" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="40" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="bSzR2dUJfmKuL78wm3Ru-2" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="80" y="240" as="sourcePoint" />
+            <mxPoint x="230" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bSzR2dUJfmKuL78wm3Ru-6" value="获取公钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bSzR2dUJfmKuL78wm3Ru-2">
+          <mxGeometry x="-0.336" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bSzR2dUJfmKuL78wm3Ru-7" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="230" y="290" as="sourcePoint" />
+            <mxPoint x="80" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bSzR2dUJfmKuL78wm3Ru-8" value="密码RSA加密" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bSzR2dUJfmKuL78wm3Ru-7">
+          <mxGeometry x="-0.336" y="-2" relative="1" as="geometry">
+            <mxPoint x="-7" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
