@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-20T07:27:28.027Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="vHgkZkaJgUy5fOs2dbD5" version="18.0.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-20T07:39:31.762Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="mSsLkH6eCRJYfLKn6cTc" version="18.0.7" type="github" pages="6">
   <diagram name="鉴权" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
     <mxGraphModel dx="2138" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -275,14 +275,20 @@
         <mxCell id="9NAWJaIJpuJt2_yTO0WV-32" value="&lt;h1&gt;设备管理&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="60" y="610" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="AEN-bYgj6zdLIM9IvmCU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9NAWJaIJpuJt2_yTO0WV-42" target="AEN-bYgj6zdLIM9IvmCU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9NAWJaIJpuJt2_yTO0WV-42" value="查询普通计划列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="90" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEN-bYgj6zdLIM9IvmCU-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9NAWJaIJpuJt2_yTO0WV-43" target="AEN-bYgj6zdLIM9IvmCU-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9NAWJaIJpuJt2_yTO0WV-43" value="查询插播计划列表" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="90" y="1400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9NAWJaIJpuJt2_yTO0WV-45" value="&lt;h1&gt;播放计划管理&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1200" width="130" height="20" as="geometry" />
+          <mxGeometry x="40" y="1200" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="waK7jHF65Sw4znNXJNhh-1" value="素材大小10M" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="400" y="290" width="80" height="80" as="geometry" />
@@ -373,6 +379,12 @@
         </mxCell>
         <mxCell id="P2xUE_HBRWbUvi1Vt_xS-4" value="新增节目" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEN-bYgj6zdLIM9IvmCU-1" value="维度：按周、自定义&lt;br&gt;同一个设备在相同时间段内有多个发布计划，按照后发布的播放计划发布" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1280" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AEN-bYgj6zdLIM9IvmCU-3" value="维度：按次数、时长&lt;br&gt;下发后对应设备立刻播放，播放结束后自动过期" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=9;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1390" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
